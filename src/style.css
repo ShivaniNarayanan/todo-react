@@ -1,0 +1,83 @@
+/* Chat container */
+.chat-container {
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Search Bar */
+  .search-bar {
+    position: relative;
+    width: 100%; /* Ensures it fits inside the container */
+    max-width: 100%; /* Prevents overflow */
+    display: flex;
+    align-items: center;
+    background: #f5f5f5;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  .search-icon {
+    margin-left: 8px;
+    color: gray;
+  }
+  
+  .search-input {
+    flex: 1; /* Takes remaining space */
+    padding: 8px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 14px;
+  }
+  
+  
+  /* Chat List */
+  .chat-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .chat-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  
+  .chat-info {
+    flex: 1;
+  }
+  
+  .chat-name {
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .chat-message {
+    font-size: 12px;
+    color: gray;
+    margin: 0;
+  }
+  
+  /* Star Icon */
+  .star-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .star-icon {
+    color: #ccc;
+    transition: color 0.3s;
+  }
+  
+  .star-icon.active {
+    color: gold;
+  }
+  
